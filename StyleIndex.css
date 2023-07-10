@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.container{
+    width: 100vw;
+    height:90vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    
+}
+/* left conatiner css */
+.leftContainer{
+    width: 15.5vw;
+    height:90vh;
+    /* border: 1px solid white; */
+    /* background-color: red; */
+}
+.logoName{
+    display: flex;
+    width: 100%;
+    /* background-color: pink; */
+    height:70px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.logoName img{
+    width: 40px;
+    height: 40px;
+    padding-left:10px;
+    padding-right:5px;
+}
+.logoName h2{
+    text-align: center;
+    padding-right: 10px;
+}
+/* manu style */
+.manuList{
+    width: 100%;
+    min-height:72.8vh;
+    /* background-color: gold; */
+}
+.manuList button{
+    width: 100%;
+    height: 50px;
+    background-color:transparent;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    text-align: left;
+    padding-left:10px ;
+
+}
+.manuList button a{
+    background-color: none;
+    text-decoration: none;
+    color: white;
+   
+}
+/* user account */
+
+.userAccount button{
+    width: 100%;
+    height: 50px;
+    background-color:transparent;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    text-align: left;
+    padding-left:10px;
+
+}
+.userAccount button a{
+    background-color: none;
+    text-decoration: none;
+    color: white;
+   
+}
+
+/* *************************** */
+/* *************************** */
+/* *************************** */
+.rightContainer{
+    background-color:#121212;
+    width:85vw;
+    height:90vh;
+    /* border: 1px solid white; */
+}
+.navBar{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.682);
+    /* border-bottom: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.playedMusicName{
+    padding-left: 10px;
+}
+.loginBtn{
+    padding-right:10px;
+}
+.loginBtn button:first-child{
+    background-color: transparent;
+    outline: none;
+    color:white;
+    border: none;
+    cursor: pointer;
+    height:45px;
+    width:100px;
+}
+.loginBtn button:first-child a{
+    color: rgb(224, 224, 224)!important;
+    font-weight:600;
+}
+.loginBtn button:first-child:hover a{
+    color: rgb(255, 255, 255)!important;
+    font-weight:600;
+}
+#NavloginButton{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    /* background-color: transparent; */
+    background-color: white;
+    margin-right:10px;
+    height:45px;
+    width:100px;
+}
+.loginBtn button a{
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 600;
+}
+.loginBtn button:hover{
+    transform: scale(1.1);
+    transition: all 0.1s;
+}
+/* ******************************* */
+/* ******************************* */
+.rightContainerSongs{
+    width:100%;
+    height:91%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.songList{
+    width:45%;
+    height:92%;
+    /* border: 1px solid ; */
+}
+.songItemContainer{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1.1em;
+    align-items: center;
+}
+.songItem{
+    border: 1px solid;
+    width: 95%;
+    height:8%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.songItem img{
+    border-radius:25px;
+    width:8%;
+    height:100%;
+}
+.timestamp{
+    margin-right:20px;
+}
+.songItemPlay{
+    font-size: 1.2em;
+}
+.ImageCover{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.ImageCover img{
+    width: 80%;
+    height: 80%;
+
+
+}
+/* ******************************* */
+/* ******************************* */
+/* ******************************* */
+.bottom{
+    width: 100vw;
+    height: 10vh;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;   
+}
+.icons{
+    padding-top:5px ;
+}
+#myProgressBar{
+    width: 90%;
+    cursor: pointer;
+}
+#previous{
+    /* margin-right: 36px; */
+    cursor: pointer;
+}
+#next{
+    /* margin-right: 36px; */
+    cursor: pointer;
+}
+#masterPlay{
+    opacity: 1;
+    cursor: pointer;
+    padding:10px;
+}
+.playerInfo{
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+    align-items: center;
+    text-align: center;
+    /* background-color: red; */
+    margin-left:20%;
+}
